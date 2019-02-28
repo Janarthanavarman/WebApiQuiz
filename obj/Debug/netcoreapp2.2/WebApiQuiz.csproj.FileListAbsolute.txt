@@ -1,0 +1,14 @@
+D:\Jana\Dotnet core\WebApiQuiz\bin\Debug\netcoreapp2.2\WebApiQuiz.deps.json
+D:\Jana\Dotnet core\WebApiQuiz\bin\Debug\netcoreapp2.2\WebApiQuiz.runtimeconfig.json
+D:\Jana\Dotnet core\WebApiQuiz\bin\Debug\netcoreapp2.2\WebApiQuiz.runtimeconfig.dev.json
+D:\Jana\Dotnet core\WebApiQuiz\bin\Debug\netcoreapp2.2\WebApiQuiz.dll
+D:\Jana\Dotnet core\WebApiQuiz\bin\Debug\netcoreapp2.2\WebApiQuiz.pdb
+D:\Jana\Dotnet core\WebApiQuiz\obj\Debug\netcoreapp2.2\WebApiQuiz.csprojAssemblyReference.cache
+D:\Jana\Dotnet core\WebApiQuiz\obj\Debug\netcoreapp2.2\WebApiQuiz.csproj.CoreCompileInputs.cache
+D:\Jana\Dotnet core\WebApiQuiz\obj\Debug\netcoreapp2.2\WebApiQuiz.RazorAssemblyInfo.cache
+D:\Jana\Dotnet core\WebApiQuiz\obj\Debug\netcoreapp2.2\WebApiQuiz.RazorAssemblyInfo.cs
+D:\Jana\Dotnet core\WebApiQuiz\obj\Debug\netcoreapp2.2\WebApiQuiz.AssemblyInfoInputs.cache
+D:\Jana\Dotnet core\WebApiQuiz\obj\Debug\netcoreapp2.2\WebApiQuiz.AssemblyInfo.cs
+D:\Jana\Dotnet core\WebApiQuiz\obj\Debug\netcoreapp2.2\WebApiQuiz.RazorTargetAssemblyInfo.cache
+D:\Jana\Dotnet core\WebApiQuiz\obj\Debug\netcoreapp2.2\WebApiQuiz.dll
+D:\Jana\Dotnet core\WebApiQuiz\obj\Debug\netcoreapp2.2\WebApiQuiz.pdb
