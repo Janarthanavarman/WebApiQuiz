@@ -29,3 +29,7 @@ Eg. context.Database.ExecuteSqlCommand("CreateStudents @p0, @p1", parameters: ne
 ## Annotation
 
 https://www.learnentityframeworkcore.com/configuration/data-annotation-attributes
+
+## File upload
+
+ist<IFormFile> files

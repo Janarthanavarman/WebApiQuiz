@@ -49,6 +49,16 @@ namespace WebApiQuiz
                     }
                 });
             });
+
+            services.AddCors(opt =>{
+                opt.AddPolicy("ngCrosPolicy",
+                             Builder=>Builder
+                                .WithOrigins("http://localhost:4200")
+                                .AllowAnyMethod()
+                                .AllowAnyHeader()
+                                );
+                                }
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -67,6 +77,8 @@ namespace WebApiQuiz
             app.UseHttpsRedirection();
             app.UseMvc();
             app.UseSwagger();
+            // Shows UseCors with named policy. Globally
+           // app.UseCros("ngCrosPolicy");
              app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Quiz API");
