@@ -16,6 +16,7 @@ using WebApiQuiz.Models;
 using Swashbuckle.AspNetCore.Swagger;
 using WebApiQuiz.Repository;
 using WebApiQuiz.Service;
+using Microsoft.AspNetCore.Authentication;
 
 namespace WebApiQuiz
 {
@@ -36,6 +37,9 @@ namespace WebApiQuiz
             services.AddScoped<IQuizCategoryRepository,QuizCategoryRepository>();  
             services.AddScoped<IQuizOptionRepository,QuizOptionRepository>();  
             services.AddScoped<IQuizService,QuizService>();
+
+            services.AddAuthentication("BasicAuthentication")
+            .AddScheme<AuthenticationSchemeOptions,Authendication>("BasicAuthentication",null);
 
             services.AddDbContext<DBContext>(Con=> Con.UseSqlServer(Configuration["ConnectionString:TrainingDB"]));
             services.AddSwaggerGen(c=>{
@@ -79,6 +83,7 @@ namespace WebApiQuiz
             app.UseSwagger();
             // Shows UseCors with named policy. Globally
            // app.UseCros("ngCrosPolicy");
+           app.UseAuthentication();
              app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Quiz API");

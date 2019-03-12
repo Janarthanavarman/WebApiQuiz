@@ -33,3 +33,7 @@ https://www.learnentityframeworkcore.com/configuration/data-annotation-attribute
 ## File upload
 
 ist<IFormFile> files
+
+## authentication
+
+http://jasonwatmore.com/post/2018/09/08/aspnet-core-21-basic-authentication-tutorial-with-example-api#users-controller-cs
